@@ -1,7 +1,7 @@
 {
-    "development": {
-      "baseUrl": "https://github.dev/",
-      "username": "devuser",
+    "checknetspeed": {
+      "baseUrl": "https://fast.com/",
+      "title": "//title[contains(text(),'Fast.com')]",
       "password": "devpass"
     },
     "staging": {
@@ -13,11 +13,5 @@
       "baseUrl": "https://example.com",
       "username": "produser",
       "password": "prodpass"
-    },
-    "checknetspeed": {
-      "baseUrl": "https://fast.com/",
-      "title": "//title[contains(text(),'Fast.com')]",
-      "password": "devpass"
     }
   }
-  

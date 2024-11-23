@@ -31,4 +31,8 @@ playwright-framework/
 npm install --save-dev allure-playwright
 ```
 
+# To download new browsers
 
+```
+ npx playwright install
+ ```
