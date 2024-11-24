@@ -34,5 +34,26 @@ npm install --save-dev allure-playwright
 # To download new browsers
 
 ```
- npx playwright install
- ```
+npx playwright install
+```
+
+# T0 Run tests
+```
+npx playwright test
+```
+# To Run tests using  
+```
+npm run test
+```
+```
+npm run test:headed
+```
+# To Run specific tests
+```
+npm run test:headed tests/example.spec.js
+```
+
+# To Run allure Reports
+```
+allure generate allure-results
+```

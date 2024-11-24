@@ -8,7 +8,8 @@
     "test:debug": "playwright test --debug",
     "test:dev": "ENV=development playwright test",
     "test:staging": "ENV=staging playwright test",
-    "test:prod": "ENV=production playwright test"
+    "test:prod": "ENV=production playwright test",
+    "test:report":"npm run test --headed --reporter=allure-playwright"
   },
   "keywords": [],
   "author": "",
