@@ -9,14 +9,14 @@
     "test:dev": "ENV=development playwright test",
     "test:staging": "ENV=staging playwright test",
     "test:prod": "ENV=production playwright test",
-    "test:report":"npm run test --headed --reporter=allure-playwright"
+    "test:report": "npm run test --headed --reporter=allure-playwright"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "playwright": "^1.49.0"
+    "playwright": "^1.49.1"
   },
   "devDependencies": {
     "allure-playwright": "^3.0.6"

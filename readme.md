@@ -53,7 +53,12 @@ npm run test:headed
 npm run test:headed tests/example.spec.js
 ```
 
-# To Run allure Reports
+# To generate allure Reports
 ```
 allure generate allure-results
 ```
+# To generate allure Reports
+```
+allure open allure-report
+```
+
